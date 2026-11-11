@@ -1,0 +1,28 @@
+{
+  "pipeline_version": "week3-v1",
+  "generated_at_utc": "2026-11-11T19:32:04.094531+00:00",
+  "records": [
+    {
+      "source_id": "S01",
+      "source_filename": "utm_genai_guidelines.pdf",
+      "source_sha256": "d6136b01bf0d91cda5db0f65860e2f0d3ae50658769dbcc38ec03b68c2661c51",
+      "prepared_output": "data/processed/prepared_text.jsonl",
+      "prepared_sha256": "8baa57caca6de4afb8a672d9be691e4424399ba8a2de1ad893b85807fd595143",
+      "processing_note": "page-aware: paragraph then line packing, 500 chars, chunks never cross pages",
+      "source_version": "Not verified",
+      "access_rights": "Not verified",
+      "status": "Prepared; quality review pending"
+    },
+    {
+      "source_id": "S02",
+      "source_filename": "utm_academic_regulations_16th_ed.pdf",
+      "source_sha256": "d2743dfad87d3be3393732e0416088ad62cf4afb9e6f7355eac47ab715de6a04",
+      "prepared_output": "data/processed/prepared_text.jsonl",
+      "prepared_sha256": "8baa57caca6de4afb8a672d9be691e4424399ba8a2de1ad893b85807fd595143",
+      "processing_note": "page-aware: paragraph then line packing, 500 chars, chunks never cross pages",
+      "source_version": "Not verified",
+      "access_rights": "Not verified",
+      "status": "Prepared; quality review pending"
+    }
+  ]
+}

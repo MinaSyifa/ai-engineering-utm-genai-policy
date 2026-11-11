@@ -1,0 +1,45 @@
+{
+  "pipeline_version": "week3-v1",
+  "generated_at_utc": "2026-11-11T19:39:38.560488+00:00",
+  "data_type": "documents_s01",
+  "configuration": {
+    "source_id": "S01",
+    "chunk_size": 500,
+    "min_page_chars": 20,
+    "method": "page-aware"
+  },
+  "processing_method": "page-aware text chunks of 500 characters (paragraph then line packing; chunks never cross pages; pages with almost no text or unreadable font codes skipped)",
+  "sources": [
+    {
+      "path": "/content/week3_project/data/raw/utm_genai_guidelines.pdf",
+      "sha256": "d6136b01bf0d91cda5db0f65860e2f0d3ae50658769dbcc38ec03b68c2661c51"
+    }
+  ],
+  "outputs": [
+    "/content/week3_project/data/pipeline_v1/documents_s01/prepared_text.jsonl"
+  ],
+  "source_output_mapping": [
+    {
+      "source": "/content/week3_project/data/raw/utm_genai_guidelines.pdf",
+      "output": "/content/week3_project/data/pipeline_v1/documents_s01/prepared_text.jsonl"
+    }
+  ],
+  "inspection": {
+    "source": "utm_genai_guidelines.pdf",
+    "total_pages": 17,
+    "usable_pages": 17,
+    "skipped_pages": [],
+    "characters": 15140
+  },
+  "validation": {
+    "output_count": 1,
+    "output_sha256": [
+      "2cb447590613ed5835ed3428182aa10a5455ee298fc633755c39f83e81193660"
+    ],
+    "output_bytes": [
+      20081
+    ]
+  },
+  "source_version": "Not verified",
+  "access_rights": "Not verified — check before sharing"
+}

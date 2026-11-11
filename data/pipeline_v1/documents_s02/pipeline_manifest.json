@@ -1,0 +1,54 @@
+{
+  "pipeline_version": "week3-v1",
+  "generated_at_utc": "2026-11-11T19:39:41.298478+00:00",
+  "data_type": "documents_s02",
+  "configuration": {
+    "source_id": "S02",
+    "chunk_size": 500,
+    "min_page_chars": 20,
+    "method": "page-aware"
+  },
+  "processing_method": "page-aware text chunks of 500 characters (paragraph then line packing; chunks never cross pages; pages with almost no text or unreadable font codes skipped)",
+  "sources": [
+    {
+      "path": "/content/week3_project/data/raw/utm_academic_regulations_16th_ed.pdf",
+      "sha256": "d2743dfad87d3be3393732e0416088ad62cf4afb9e6f7355eac47ab715de6a04"
+    }
+  ],
+  "outputs": [
+    "/content/week3_project/data/pipeline_v1/documents_s02/prepared_text.jsonl"
+  ],
+  "source_output_mapping": [
+    {
+      "source": "/content/week3_project/data/raw/utm_academic_regulations_16th_ed.pdf",
+      "output": "/content/week3_project/data/pipeline_v1/documents_s02/prepared_text.jsonl"
+    }
+  ],
+  "inspection": {
+    "source": "utm_academic_regulations_16th_ed.pdf",
+    "total_pages": 81,
+    "usable_pages": 73,
+    "skipped_pages": [
+      1,
+      2,
+      3,
+      4,
+      11,
+      13,
+      15,
+      81
+    ],
+    "characters": 103844
+  },
+  "validation": {
+    "output_count": 1,
+    "output_sha256": [
+      "63ded8df8f9da1f379f6a5bbcc09417f38c640d7018775712482acb2ed477b5e"
+    ],
+    "output_bytes": [
+      135925
+    ]
+  },
+  "source_version": "Not verified",
+  "access_rights": "Not verified — check before sharing"
+}
