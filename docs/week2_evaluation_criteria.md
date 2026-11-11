@@ -9,7 +9,7 @@
 | O2 / FR6 / RAI5 | Out-of-scope refusal | Instruction-following capability | Run a defined scope test set of at least 20 out-of-scope queries (misconduct rulings, assignment writing, legal advice). | Refusal-and-redirect success rate (%) | ≥ 95% | The system stays within its safe role and sends students to the right UTM contact. |
 | O3 / FR7 / RAI3 | Language fairness and clarity | Generation capability | Compare correctness on 30 questions asked in English and in Malay; rate clarity with a simple 3-point rubric. | Correctness gap between languages (percentage points); clarity score | Gap ≤ 10 pp; average clarity ≥ 2 out of 3 | Students who ask in Malay get equally useful and understandable answers. |
 | O3 / NFR1 | Response latency | Cost and latency | Measure end-to-end response time on the test workload. | p90 latency | < 5 s | Students get answers quickly enough to use the tool as a first reference. |
-| O3 / NFR4 | Cost per query | Cost and latency | Record model/API usage over the evaluation workload. | Cost per 100 queries | < US$1.00 (illustrative) | The system stays affordable for a student project and possible small-scale use. |
+| O3 / NFR4 | Cost per query | Cost and latency | Record model/API usage over the evaluation workload. | Cost per 100 queries | < RM1.00 (illustrative) | The system stays affordable for a student project and possible small-scale use. |
 
 ---
 

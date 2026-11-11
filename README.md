@@ -33,3 +33,14 @@ UTM undergraduate students.
 | Week | Focus | Deliverable | Status |
 |------|-------|-------------|--------|
 | W1 | System map + project scope | README + docs | ✅ |
+| W2 | Requirements, evaluation criteria, V1 architecture | docs/week2_*.md + architecture diagram | ✅ |
+
+| W3 | Data pipeline: PDF ingestion, page-aware chunking, lineage | notebook + docs + manifests | ✅ |
+
+## Week 3 Artefacts
+- Notebook: [notebooks/week3_pipeline.ipynb](notebooks/week3_pipeline.ipynb)
+- Data inventory: [docs/week3_data_inventory.md](docs/week3_data_inventory.md)
+- Pipeline diagram: [docs/week3_pipeline_diagram.png](docs/week3_pipeline_diagram.png)
+- Pipeline decisions: [docs/week3_pipeline_decisions.md](docs/week3_pipeline_decisions.md)
+- Lineage manifest: [data/week3_manifest.json](data/week3_manifest.json)
+- Pipeline manifests: [documents_s01](data/pipeline_v1/documents_s01/pipeline_manifest.json), [documents_s02](data/pipeline_v1/documents_s02/pipeline_manifest.json)
