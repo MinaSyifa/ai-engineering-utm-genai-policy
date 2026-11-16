@@ -34,7 +34,6 @@ UTM undergraduate students.
 |------|-------|-------------|--------|
 | W1 | System map + project scope | README + docs | ✅ |
 | W2 | Requirements, evaluation criteria, V1 architecture | docs/week2_*.md + architecture diagram | ✅ |
-
 | W3 | Data pipeline: PDF ingestion, page-aware chunking, lineage | notebook + docs + manifests | ✅ |
 
 ## Week 3 Artefacts
